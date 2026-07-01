@@ -1,37 +1,166 @@
-<h2 style="text-align:center;margin-top:20px;">🔥 Viral Smart Gadgets Store 🔥</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Deal Hub</title>
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;padding:20px;">
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b0b0b;
+  color: white;
+}
 
-  <div style="background:#1a1a1a;padding:15px;border-radius:12px;border:1px solid #333;">
-    <h3>🤖 Smart AI Camera Glasses</h3>
-    <p>Wearable AI glasses with smart features</p>
-    <button onclick="window.open('https://amzn.to/3TcIeOb')" style="width:100%;padding:10px;background:#00c6ff;border:none;cursor:pointer;">
+/* HEADER */
+header {
+  background: linear-gradient(90deg, #00c6ff, #7a00ff);
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 20px #00c6ff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  background: #111;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* SECTION TITLE */
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  color: #00c6ff;
+}
+
+/* PRODUCT GRID */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* PRODUCT CARD */
+.card {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #333;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border-color: #00c6ff;
+}
+
+/* BUTTON */
+button {
+  background: #00c6ff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #009acb;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background: #111;
+  color: #aaa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🔥 Smart Deal Hub 🔥</h1>
+  <p>Viral TikTok Gadgets & Smart Home Tech</p>
+</header>
+
+<nav>
+  <a href="#glasses">AI Glasses</a>
+  <a href="#dryer">Mini Dryer</a>
+  <a href="#bath">Bath Mat</a>
+  <a href="#soda">Soda Maker</a>
+</nav>
+
+<!-- AI GLASSES -->
+<h2 id="glasses">🤖 Smart AI Glasses</h2>
+<div class="container">
+  <div class="card">
+    <h3>AI Camera Glasses</h3>
+    <p>Smart wearable glasses with AI features</p>
+    <button onclick="window.open('https://amzn.to/3TcIeOb')">
       View on Amazon
     </button>
   </div>
-
-  <div style="background:#1a1a1a;padding:15px;border-radius:12px;border:1px solid #333;">
-    <h3>👕 Portable Mini Clothes Dryer</h3>
-    <p>Perfect for travel and small apartments</p>
-    <button onclick="window.open('https://amzn.to/4eEKtlP')" style="width:100%;padding:10px;background:#00c6ff;border:none;cursor:pointer;">
-      View on Amazon
-    </button>
-  </div>
-
-  <div style="background:#1a1a1a;padding:15px;border-radius:12px;border:1px solid #333;">
-    <h3>🛁 Bubble Massage Bath Mat</h3>
-    <p>Home spa relaxation bubble system</p>
-    <button onclick="window.open('https://amzn.to/4bjRGFH')" style="width:100%;padding:10px;background:#00c6ff;border:none;cursor:pointer;">
-      View on Amazon
-    </button>
-  </div>
-
-  <div style="background:#1a1a1a;padding:15px;border-radius:12px;border:1px solid #333;">
-    <h3>🥤 Home Soda Maker Machine</h3>
-    <p>Make sparkling water at home easily</p>
-    <button onclick="window.open('https://amzn.to/3SGcuAS')" style="width:100%;padding:10px;background:#00c6ff;border:none;cursor:pointer;">
-      View on Amazon
-    </button>
-  </div>
-
 </div>
+
+<!-- DRYER -->
+<h2 id="dryer">👕 Mini Clothes Dryer</h2>
+<div class="container">
+  <div class="card">
+    <h3>Portable Dryer</h3>
+    <p>Perfect for travel & small apartments</p>
+    <button onclick="window.open('https://amzn.to/4eEKtlP')">
+      View on Amazon
+    </button>
+  </div>
+</div>
+
+<!-- BATH MAT -->
+<h2 id="bath">🛁 Bubble Massage Mat</h2>
+<div class="container">
+  <div class="card">
+    <h3>Home Spa Mat</h3>
+    <p>Relaxing bubble bath experience</p>
+    <button onclick="window.open('https://amzn.to/4bjRGFH')">
+      View on Amazon
+    </button>
+  </div>
+</div>
+
+<!-- SODA MAKER -->
+<h2 id="soda">🥤 Soda Maker</h2>
+<div class="container">
+  <div class="card">
+    <h3>Home Soda Machine</h3>
+    <p>Make sparkling water at home</p>
+    <button onclick="window.open('https://amzn.to/3SGcuAS')">
+      View on Amazon
+    </button>
+  </div>
+</div>
+
+<footer>
+  <p>Affiliate site • Smart Deal Hub • Built with GitHub Pages</p>
+</footer>
+
+</body>
+</html>
